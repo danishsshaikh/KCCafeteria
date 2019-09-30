@@ -1,0 +1,198 @@
+@font-face {
+    font-family: 'peaches_and_creamregular';
+    src: url('fonts/peaches_and_cream_regular-webfont.woff2') format('woff2'),
+         url('fonts/peaches_and_cream_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sanscondensed_light';
+    src: url('fonts/OpenSans-CondensedLight.eot');
+    src: url('fonts/OpenSans-CondensedLight.eot?#iefix') format('embedded-opentype'),
+        url('fonts/OpenSans-CondensedLight.woff2') format('woff2'),
+        url('fonts/OpenSans-CondensedLight.woff') format('woff'),
+        url('fonts/OpenSans-CondensedLight.svg#OpenSans-CondensedLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {font-family: "MarzoW-Regular";
+    src: url("fonts/1e6ec96c95301fa73aa1d026f161a269.eot");
+    src: url("fonts/1e6ec96c95301fa73aa1d026f161a269.eot?#iefix") format("embedded-opentype"),
+         url("fonts/1e6ec96c95301fa73aa1d026f161a269.woff2") format("woff2"),
+         url("fonts/1e6ec96c95301fa73aa1d026f161a269.woff") format("woff"),
+         url("fonts/1e6ec96c95301fa73aa1d026f161a269.svg#MarzoW00-Regular") format("svg");
+}
+@font-face {
+    font-family: 'DIN';
+    src: url('fonts/DIN-Light.eot');
+    src: url('fonts/DIN-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/DIN-Light.woff2') format('woff2'),
+        url('fonts/DIN-Light.woff') format('woff'),
+        url('fonts/DIN-Light.svg#DIN-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+#header{
+	text-align: center;
+	padding-bottom: 60px;
+}
+
+li{
+	list-style: none;
+    display: inline;
+padding-right: 15px;
+text-align: center;
+color: red;
+}
+p{
+	color: #888785;
+	font-family: DIN;
+	font-size: 16px;
+	padding-bottom: 30px;
+}
+h2{
+	color: #a2cc01;
+	font-family:MarzoW-Regular;
+	font-size: 35px;
+}
+#main{
+	position: absolute;
+	left: 16.5em;
+	top: 23px;
+}
+#main_name{
+	text-decoration: none;
+	padding-right:20px;
+	color: #5f0038;
+	font-family: peaches_and_creamregular;
+	font-size: 64px;
+}
+#uma{
+	text-decoration: none;
+	padding-right: 30px;
+	font-family: arial;
+	color:grey;
+    font-size: 16px;
+    font-weight: 300;
+}
+#uma:hover{
+	
+}
+
+
+section{
+	overflow: hidden;
+	height: 100px;
+	}
+
+
+
+nav{
+	
+			
+			position: relative;
+			left: 30.25em;
+			top: 42px;
+			
+			
+		
+}
+body{
+	margin: 0px;
+}
+#nav_faq{
+	text-decoration: none;
+	padding-right: 30px;
+	font-family: arial;
+    font-size: 16px;
+    font-weight: 300;
+	color: #a2cc01;
+}
+#main_faq{
+	width: 800px;
+	height: 700px;
+	position: absolute;
+	left: 17em;
+	top: 13em;
+}
+#question{
+	font-family: DIN;
+	font-size: 20px;
+}
+#faq{
+	padding-bottom: 20px;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    color: white;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+#cart{
+	font-family: DIN;
+	font-size: 30px;
+	width: 350px;
+	height: 120px;
+	background-color: grey;
+	color: white;
+	position: absolute;
+	top: 0em;
+	text-align: center;
+}
+#cart_word2{
+	font-size: 20px;
+	width: 100px;
+	height: 100px;
+	font-family: DIN;
+	position: absolute;
+	top: 5.5em;
+	left: 6.5em;
+	color: grey;
+	text-align: center;
+	text-overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
