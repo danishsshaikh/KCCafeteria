@@ -7,7 +7,7 @@ $password = filter_input(INPUT_POST, 'ppname');
 $host = "localhost";
 $dbusername = "root";
 $dbpassword = "";
-$dbname = "login";
+$dbname = "cart";
 // Create connection
 //$conn = new mysqli ($host, $dbusername, $dbpassword, $dbname);
 
@@ -17,10 +17,11 @@ $error = ''; // Variable To Store Error Message
 
 if (isset($_POST['submit'])) {
 if (empty($username)){
-echo "Username is invalid";
+echo '<script>alert("Username is Invalid")</script>';
+    
 }
 else if (empty($password)){
-echo "Password is invalid";
+echo '<script>alert("Password is Invalid")</script>';
 }
 else{
 // Define $username and $password
@@ -40,6 +41,10 @@ if($stmt->fetch())
 {
 $_SESSION['username'] = $username;
 header("location: index.php"); 
+}
+else
+{
+echo "Details cant be found";
 }
 mysqli_close($conn); 
 }
