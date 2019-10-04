@@ -11,7 +11,7 @@ if (!empty($password)){
 $host = "localhost";
 $dbusername = "root";
 $dbpassword = "";
-$dbname = "login";
+$dbname = "cart";
 // Create connection
 $conn = new mysqli ($host, $dbusername, $dbpassword, $dbname);
 if (mysqli_connect_error()){
