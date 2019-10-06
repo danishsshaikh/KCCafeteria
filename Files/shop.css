@@ -37,6 +37,7 @@
 #header{
 	text-align: center;
 	padding-bottom: 60px;
+    
 }
 
 li{
@@ -85,7 +86,7 @@ h2{
 	padding-right:20px;
 	color: #5f0038;
 	font-family: peaches_and_creamregular;
-	font-size: 30px;
+	font-size: 70px;
 }
 #uma{
 	text-decoration: none;
@@ -119,6 +120,7 @@ nav{
 }
 body{
 	margin: 0px;
+    
 }
 #nav_faq{
 	text-decoration: none;
@@ -251,47 +253,7 @@ body{
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
-#img1:hover .last {
-  opacity: 1;
-}
 
-#image{
-	text-decoration: none;
-}
-#img2{
-	position: absolute;
-	top: 5.85em;
-	left: 23em;
-}
-#img3{
-	position: absolute;
-	top: 5.85em;
-	left: 46em;
-}
-#img5{
-	position: absolute;
-	top: 32.15em;
-	left: 23em;
-}
-#img6{
-	position: absolute;
-	top: 32.15em;
-	left: 46em;
-}
-
-
-a.btn{
-  padding:1.1px;
-  background:grey;
-  margin:1px;
-  display:block;
-  text-align:center;
-  color:#fff;
-  transition:all 1s linear;
-  text-shadow:1px 1px 3px rgba(0,0,0,0.3);
-  border-radius:3px;
-  border-bottom:3px solid #a2cc01;
-}
 
 
 
