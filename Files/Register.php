@@ -1,7 +1,7 @@
 <?php
-include('login.php'); // Includes Login Script
+include('login.php');  
 //if(isset($_SESSION['login_user'])){
-//header("location: Register.php"); // Redirecting To Profile Page
+//header("location: index.php");  
 //}
 ?>
 
@@ -10,6 +10,7 @@ include('login.php'); // Includes Login Script
     <title>Registration / Login Page</title>
     <link rel="stylesheet" type="text/css" href="himanshu.css">
     <link rel="stylesheet"  type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<!--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">-->
 </head>
 
 <body>
@@ -22,9 +23,9 @@ include('login.php'); // Includes Login Script
                         <!–– Some CSS BOX Effect for Canteen Pictures -->
                                                 <!–– Some CSS BOX Effect for Canteen Pictures -->
 
-                        <h3>KC Cafeteria</h3>
+<!--                        <h3>KC Cafeteria</h3>-->
                         </br>
-                       <img src="page1.png" width="50%" height="200">
+                       <img src="logo.png" width="75%" height="220">
                         
                         <p>Hungry? Order Right away at your classroom.</p>
                         
