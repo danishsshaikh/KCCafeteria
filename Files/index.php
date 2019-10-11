@@ -1,3 +1,5 @@
+<!--            <a href="adminlogin.php" id="mainn_nname">Admin Login</a>-->
+
 <?php 
 session_start();
 $connect = mysqli_connect("localhost", "root", "", "cart");
@@ -61,6 +63,7 @@ if(isset($_GET["action"]))
 
 <head>
     <title>KC Cafe</title>
+        <link rel="icon" href="logo.png">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -103,6 +106,9 @@ if(isset($_GET["action"]))
             &nbsp;
             &nbsp;
             &nbsp;
+                        <a href="adminlogin.php" id="mainn_nname">Admin Login</a>
+
+<!--
             &nbsp;
             &nbsp;
             &nbsp;
@@ -124,6 +130,7 @@ if(isset($_GET["action"]))
             &nbsp;
             &nbsp;
             &nbsp;
+-->
             &nbsp;
             &nbsp;
             &nbsp;
