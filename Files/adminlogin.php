@@ -1,0 +1,79 @@
+<html>
+
+<head>
+        <link rel="icon" href="logo.png">
+
+    <link rel="stylesheet" type="text/css" href="lastpage.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Admin Login</title>
+
+</head>
+
+<body style="  background-image: linear-gradient(to left, #B3FFAB , #12FFF7);
+">
+    <div class="container">
+
+        <form class="well form-horizontal" action="admincheck.php" method="post" id="contact_form">
+            <fieldset>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+
+                <h2>Admin Login</h2>
+
+                </br>
+                <div class="form-group">
+                    <label class="col-md-4 control-label" style="">Username</label>
+                    <div class="col-md-4 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                            <input name="adminU" placeholder="Username" class="form-control" type="text" style="">
+                        </div>
+                    </div>
+                </div>
+                </br>
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Password</label>
+                    <div class="col-md-4 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                            <input name="adminP" placeholder="Password" class="form-control" type="text">
+                        </div>
+                    </div>
+                </div>
+                </br>
+
+
+                </b>
+                <input type="Submit" value="Submit" style=" position: relative;
+  outline: none;
+  text-decoration: none;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  height: 60px;
+  width: 210px;
+  opacity: 1;
+  background-color: #ffffff;
+  border: 1px solid rgba(22, 76, 167, 0.6);">
+
+
+
+                <!--
+                    <button>
+                        <span>Place Order</span>
+                    </button>
+-->
+            </fieldset>
+        </form>
+        <!--    <img src="page1.png" width="100" height="100" align="right">-->
+    </div>
+
+</body>
+
+</html>
