@@ -1,6 +1,8 @@
 <html>
 
 <head>
+        <link rel="icon" href="logo.png">
+
     <link rel="stylesheet" type="text/css" href="lastpage.css">
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <title>Last Page</title>
