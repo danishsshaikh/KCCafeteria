@@ -18,10 +18,14 @@ $error = ''; // Variable To Store Error Message
 if (isset($_POST['submit'])) {
 if (empty($username)){
 echo '<script>alert("Username is Invalid")</script>';
+    echo '<script>window.location="register.php"</script>';
+
     
 }
 else if (empty($password)){
 echo '<script>alert("Password is Invalid")</script>';
+    echo '<script>window.location="register.php"</script>';
+
 }
 else{
 // Define $username and $password
@@ -44,7 +48,9 @@ header("location: index.php");
 }
 else
 {
-echo "Details cant be found";
+    echo '<script>alert("Details are invalid")</script>';
+echo '<script>window.location="register.php"</script>';
+//echo"Details cant be found";
 }
 mysqli_close($conn); 
 }
