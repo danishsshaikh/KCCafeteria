@@ -74,3 +74,13 @@ CREATE TABLE IF NOT EXISTS `tbl_user`(
 `classno` int(10) COLLATE latin1_general_ci NOT NULL DEFAULT '',
   `mobilemo` varchar(20) COLLATE latin1_general_ci NOT NULL DEFAULT ''
 )
+
+
+// 9 Step
+// Create a table named `admin`
+
+
+CREATE TABLE IF NOT EXISTS `admin`(
+`username` int(10) COLLATE latin1_general_ci NOT NULL DEFAULT '',
+  `password` varchar(20) COLLATE latin1_general_ci NOT NULL DEFAULT ''
+)
