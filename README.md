@@ -28,8 +28,12 @@ YET TO UPDATE.
 
 ## Contributors 
 [Aryan Veturekar](https://github.com/thedarklord30)
+
 [Himanshu Singh](https://github.com/himanshusiingh)
 
+## To-Do's
+
+> Update the UI of KC Cafeteria Index Page.
 
 ## License 
 
