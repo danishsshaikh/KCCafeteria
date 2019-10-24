@@ -24,10 +24,8 @@ With this project we have eliminated the paper work and the long queue in the ca
 - Logged-in with your email and password
 - Order your food 
 - Fill up your account details.
-
 - You’ll be redirected to an address page 
 - Fill in your mobile number and classroom, lab number.
-
 - Click the submit button 
 - Your Order will be saved and will be delivered within shortspan of time.
                
