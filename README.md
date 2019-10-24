@@ -1,8 +1,7 @@
-## Online Food Delivery System 💻
+# KC Cafeteria 🍱
+
  _Project for 5th Semester Subject_ -> **WDL & DBMS**
 
-
-# KC Cafeteria 🍱
 
 Here we provide the online canteen facility in the KCCEMSR campus. This facility is for the canteen in the KCCEMSR campus.
 
