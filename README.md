@@ -28,9 +28,9 @@ YET TO UPDATE.
 
 ## Software Used
 
-[XAMPP](https://www.apachefriends.org/download.html)
+- [XAMPP](https://www.apachefriends.org/download.html)
 
-[Brackets](http://brackets.io/)
+- [Brackets](http://brackets.io/)
 
 
 ## Contributors 
