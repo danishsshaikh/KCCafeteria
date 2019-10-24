@@ -39,13 +39,20 @@ With this project we have eliminated the paper work and the long queue in the ca
 ## Getting started?
 
 - Download the Project.
+
 - Download [XAMPP](https://www.apachefriends.org/download.html)
+
 - Copy the project in the following directory
 > C:\xampp\htdocs
+
 - Start the **APACHE** and **MYSQL** Server on XAMPP
+
 - Copy and Paste the commands from [cart.sql](https://github.com/danishsshaikh/KC-Cafeteria/tree/master/Files/sql) & Make a Database
+
 - Open your browser
+
 - Type `http://localhost/login/register.php` to get started with the first page
+
 - And there you go ;)
 
 
