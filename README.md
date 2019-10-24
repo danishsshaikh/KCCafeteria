@@ -1,7 +1,7 @@
-# Online Food Delivery System
+# Online Food Delivery System 💻
  Project for 5th Semester Subject -> WDL & DBMS
 
-## KC Cafeteria 
+## KC Cafeteria 🍱
 
 Here we provide the online canteen facility in the KCCEMSR campus. This facility is for the canteen in the KCCEMSR campus.
 
@@ -18,15 +18,15 @@ By this way you can save the time and you need not to pay extra charges for deli
 With this project we have eliminated the paper work and the long queue in the canteen completely. This system is quite easy to use and learn due to its attractive interface
 
 
-## Technologies Used
+## Technologies Used 📊
 
 HTML, CSS, Javascript, AJAX, PHP, MYSQL
 
-## Functions
+## Functions 📲
 
 YET TO UPDATE.
 
-## Software Used
+## Software Used 💯
 
 - [XAMPP](https://www.apachefriends.org/download.html)
 
@@ -38,10 +38,10 @@ YET TO UPDATE.
 
 [Himanshu Singh](https://github.com/himanshusiingh)
 
-## To-Do's
+## To-Do's ✔️
 
 - [ ] Update the UI of KC Cafeteria Index Page.
 
-## License 
+## License 🆓
 
 Free to use ;)
