@@ -55,7 +55,7 @@ With this project we have eliminated the paper work and the long queue in the ca
 
 - Open your browser
 
-- Type `http://localhost/login/register.php` to get started with the first page
+- Type `http://localhost/Files/register.php` to get started with the first page
 
 - And there you go ;)
 
