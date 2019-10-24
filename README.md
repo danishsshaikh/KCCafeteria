@@ -26,6 +26,13 @@ HTML, CSS, Javascript, AJAX, PHP, MYSQL
 
 YET TO UPDATE.
 
+## Software Used
+
+[XAMPP](https://www.apachefriends.org/download.html)
+
+[Brackets](http://brackets.io/)
+
+
 ## Contributors 
 [Aryan Veturekar](https://github.com/thedarklord30)
 
