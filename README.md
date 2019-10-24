@@ -20,7 +20,12 @@ With this project we have eliminated the paper work and the long queue in the ca
 
 ## Technologies Used 📊
 
-HTML, CSS, Javascript, AJAX, PHP, MYSQL
+- HTML
+- CSS
+- Javascript
+- AJAX
+- PHP 
+- MYSQL
 
 ## Functions 📲
 
