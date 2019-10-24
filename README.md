@@ -44,7 +44,7 @@ With this project we have eliminated the paper work and the long queue in the ca
 
 - Download the Project.
 
-- Download **[XAMPP](https://www.apachefriends.org/download.html)
+- Download [XAMPP](https://www.apachefriends.org/download.html)
 
 - Copy the project in the following directory
 > C:\xampp\htdocs
