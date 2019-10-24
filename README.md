@@ -40,7 +40,7 @@ YET TO UPDATE.
 
 ## To-Do's
 
-> Update the UI of KC Cafeteria Index Page.
+- [ ] Update the UI of KC Cafeteria Index Page.
 
 ## License 
 
