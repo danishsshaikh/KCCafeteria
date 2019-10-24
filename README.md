@@ -33,7 +33,7 @@ YET TO UPDATE.
 - [Brackets](http://brackets.io/)
 
 
-## Contributors 
+## Contributors :two_hearts:
 [Aryan Veturekar](https://github.com/thedarklord30)
 
 [Himanshu Singh](https://github.com/himanshusiingh)
