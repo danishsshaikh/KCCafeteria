@@ -22,6 +22,7 @@ With this project we have eliminated the paper work and the long queue in the ca
 
 - HTML
 - CSS
+- Bootstrap
 - Javascript
 - AJAX
 - PHP 
