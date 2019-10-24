@@ -26,6 +26,11 @@ HTML, CSS, Javascript, AJAX, PHP, MYSQL
 
 YET TO UPDATE.
 
+## Contributors 
+[Aryan Veturekar](https://github.com/thedarklord30)
+[Himanshu Singh](https://github.com/himanshusiingh)
+
+
 ## License 
 
 Free to use ;)
