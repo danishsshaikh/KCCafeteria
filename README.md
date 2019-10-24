@@ -21,3 +21,11 @@ With this project we have eliminated the paper work and the long queue in the ca
 ## Technologies Used
 
 HTML, CSS, Javascript, AJAX, PHP, MYSQL
+
+## Functions
+
+YET TO UPDATE.
+
+## License 
+
+Free to use ;)
