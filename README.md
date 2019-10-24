@@ -16,3 +16,8 @@ Once you click the submit button you order will go to canteen and the canteen de
 By this way you can save the time and you need not to pay extra charges for delivery of your orders.
 
 With this project we have eliminated the paper work and the long queue in the canteen completely. This system is quite easy to use and learn due to its attractive interface
+
+
+## Technologies Used
+
+HTML, CSS, Javascript, AJAX, PHP, MYSQL
