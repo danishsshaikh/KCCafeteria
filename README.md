@@ -21,6 +21,7 @@ With this project we have eliminated the paper work and the long queue in the ca
 
 ## Functions 📲
 
+- Register with us
 - Logged-in with your email and password
 - Order your food 
 - Fill up your account details.
