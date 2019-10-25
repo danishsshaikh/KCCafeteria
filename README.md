@@ -46,8 +46,7 @@ With this project we have eliminated the paper work and the long queue in the ca
 
 - Download [XAMPP](https://www.apachefriends.org/download.html)
 
-- Copy the project in the following directory
-> C:\xampp\htdocs
+- Copy the project in the following directory > C:\xampp\htdocs
 
 - Start the **APACHE** and **MYSQL** Server on **XAMPP**
 
