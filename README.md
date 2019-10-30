@@ -1,4 +1,4 @@
-# 🍱 KC Cafeteria 
+# KC Cafeteria 🍱
 
  _Project for 5th Semester Subject_ -> **WDL & DBMS**
 
@@ -10,7 +10,7 @@ Usually People have to go to canteen and order the foods and they have to wait i
 With this project we have eliminated the paper work and the long queue in the canteen completely. This system is quite easy to use and learn due to its attractive interface
 
 
-## Technologies Used 📊
+##  📊 Technologies Used 
 
 - HTML
 - CSS
@@ -21,7 +21,7 @@ With this project we have eliminated the paper work and the long queue in the ca
 - MYSQL
 
 
-## Working 📲
+##  📲 Working 
 
 - Register with us
 - Logg-in with your email and password
@@ -33,7 +33,7 @@ With this project we have eliminated the paper work and the long queue in the ca
 - Your Order will be saved and will be delivered within shortspan of time.
    
    
-## Software Used 💯
+##  💯 Software Used 
 
 - [XAMPP](https://www.apachefriends.org/download.html)
 
@@ -59,18 +59,18 @@ With this project we have eliminated the paper work and the long queue in the ca
 - And there you go ;)
 
 
-## Contributors :two_hearts:
+##  :two_hearts: Contributors 
 
 [Aryan Veturekar](https://github.com/thedarklord30) & 
 [Himanshu Singh](https://github.com/himanshusiingh)
 
 
-## To-Do's ✔️
+##  ✔️ To-Do's 
 
 - [ ] Update the UI of KC Cafeteria Index Page.
 - [ ] Improve Submit Button for Address Page.
 
 
-## License 🆓
+## 🆓 License 
 
 Free to use ;)
