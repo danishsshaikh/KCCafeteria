@@ -1,4 +1,4 @@
-# KC Cafeteria 🍱
+# 🍱 KC Cafeteria 
 
  _Project for 5th Semester Subject_ -> **WDL & DBMS**
 
