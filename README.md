@@ -24,7 +24,7 @@ With this project we have eliminated the paper work and the long queue in the ca
 ##  📲 Working 
 
 - Register with us
-- Logg-in with your email and password
+- Log-in with your email and password
 - Order your food 
 - Fill up your account details.
 - You’ll be redirected to an address page 
