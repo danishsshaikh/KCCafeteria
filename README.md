@@ -61,8 +61,8 @@ With this project we have eliminated the paper work and the long queue in the ca
 
 ##  :two_hearts: Contributors 
 
-[Aryan Veturekar](https://github.com/thedarklord30) & 
-[Himanshu Singh](https://github.com/himanshusiingh)
+- [Aryan Veturekar](https://github.com/thedarklord30)
+- [Himanshu Singh](https://github.com/himanshusiingh)
 
 
 ##  ✔️ To-Do's 
