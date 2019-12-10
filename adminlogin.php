@@ -1,6 +1,7 @@
 <html lang="en">
+
 <head>
-    <link rel="icon" href="logo.png">
+    <link rel="icon" href="assets/imgs/logo.png" />
 
     <link rel="stylesheet" type="text/css" href="lastpage.css">
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -42,11 +43,11 @@
                 <h2>Admin Login</h2>
                 </br>
                 <div class="form-group">
-                    <label class="col-md-4 control-label" style="">Username</label>
+                    <label class="col-md-4 control-label">Username</label>
                     <div class="col-md-4 inputGroupContainer">
                         <div class="input-group">
                             <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                            <input name="adminU" placeholder="Username" class="form-control" type="text" style="">
+                            <input name="adminU" placeholder="Username" class="form-control" type="text">
                         </div>
                     </div>
                 </div>
@@ -62,7 +63,7 @@
                 </div>
                 </br>
                 </b>
-                <input class="btn-submit" type="Submit" value="Submit">
+                <input class="btn-submit" type="submit" value="Submit">
             </fieldset>
         </form>
 

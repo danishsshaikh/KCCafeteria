@@ -7,7 +7,7 @@ $dbusername = "root";
 $dbpassword = "";
 $dbname = "cart";
 
-session_start(); // Starting Session
+session_start(); 
 
 $error = '';
 

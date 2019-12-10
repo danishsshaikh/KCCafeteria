@@ -2,7 +2,7 @@
     <html>
 
     <head>
-        <link rel="icon" href="logo.png">
+        <link rel="icon" href="assets/imgs/logo.png" />
 
         <link rel="stylesheet" type="text/css" href="lastpage.css">
         <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -38,12 +38,7 @@
             <form class="well form-horizontal" action="lastpageecho.php " method="post" id="contact_form">
                 <fieldset>
                     <img src="page1.png" width="500" height="650" align="right">
-                    </br>
-                    </br>
-                    </br>
-                    </br>
-                    </br>
-                    </br>
+                  
                     <h2>Enter Your Delivery Address</h2>
 
                     </br>
@@ -52,7 +47,7 @@
                         <div class="col-md-4 inputGroupContainer">
                             <div class="input-group">
                                 <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                                <input name="class_no" placeholder="Class No or Lab No" class="form-control" type="text" style="">
+                                <input name="class_no" placeholder="Class No or Lab No" class="form-control" type="text">
                             </div>
                         </div>
                     </div>
@@ -67,7 +62,7 @@
                         </div>
                     </div>
                     </br>
-                    <input type="Submit" value="Submit" class="btn-submit">
+                    <input type="submit" value="Submit" class="btn-submit">
 
                 </fieldset>
             </form>

@@ -19,25 +19,25 @@ if (!empty($name)) {
                 } else {
                     $sql = "INSERT INTO registration (name, username, email, password) values ('$name','$username','$email','$password')";
                     if ($conn->query($sql)) {
-                        header("location: Register.php");
+                        header("location: register.php");
                     } else {
                         echo "Error: " . $sql . "" . $conn->error;
                     }
                     $conn->close();
                 }
             } else {
-                header("location: Register.php");
+                header("location: register.php");
                 die();
             }
         } else {
-            header("location: Register.php");
+            header("location: register.php");
             die();
         }
     } else {
-        header("location: Register.php");
+        header("location: register.php");
         die();
     }
 } else {
-    header("location: Register.php");
+    header("location: register.php");
     die();
 }
