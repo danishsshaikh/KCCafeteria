@@ -1,7 +1,6 @@
 <?php
 session_start();
-if(session_destroy()) // Destroying All Sessions 
+if (session_destroy()) // Destroying All Sessions 
 {
-header("Location: Register.php"); // Redirecting To Home Page
+    header("Location: Register.php"); // Redirecting To Home Page
 }
-?>

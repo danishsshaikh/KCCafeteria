@@ -1,18 +1,37 @@
-<html>
-
+<html lang="en">
 <head>
-        <link rel="icon" href="logo.png">
+    <link rel="icon" href="logo.png">
 
     <link rel="stylesheet" type="text/css" href="lastpage.css">
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <title>Admin Login</title>
+    <style>
+        .btn-submit {
+            position: relative;
+            outline: none;
+            text-decoration: none;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            text-transform: uppercase;
+            height: 60px;
+            width: 210px;
+            opacity: 1;
+            background-color: #ffffff;
+            border: 1px solid rgba(22, 76, 167, 0.6);
+        }
+
+        .bg-body {
+            background-image: linear-gradient(to left, #B3FFAB, #12FFF7);
+        }
+    </style>
 
 </head>
 
-<body style="  background-image: linear-gradient(to left, #B3FFAB , #12FFF7);
-">
+<body class="bg-body">
     <div class="container">
-
         <form class="well form-horizontal" action="admincheck.php" method="post" id="contact_form">
             <fieldset>
                 </br>
@@ -20,9 +39,7 @@
                 </br>
                 </br>
                 </br>
-
                 <h2>Admin Login</h2>
-
                 </br>
                 <div class="form-group">
                     <label class="col-md-4 control-label" style="">Username</label>
@@ -44,34 +61,11 @@
                     </div>
                 </div>
                 </br>
-
-
                 </b>
-                <input type="Submit" value="Submit" style=" position: relative;
-  outline: none;
-  text-decoration: none;
-  border-radius: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  text-transform: uppercase;
-  height: 60px;
-  width: 210px;
-  opacity: 1;
-  background-color: #ffffff;
-  border: 1px solid rgba(22, 76, 167, 0.6);">
-
-
-
-                <!--
-                    <button>
-                        <span>Place Order</span>
-                    </button>
--->
+                <input class="btn-submit" type="Submit" value="Submit">
             </fieldset>
         </form>
-        <!--    <img src="page1.png" width="100" height="100" align="right">-->
+
     </div>
 
 </body>
