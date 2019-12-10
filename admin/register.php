@@ -1,8 +1,6 @@
 <?php
-include('includes/header.php'); 
-//include('includes/navbar.php'); 
+include('includes/header.php');
 ?>
-
 
 <div class="modal fade" id="addadminprofile" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
@@ -48,37 +46,39 @@ include('includes/header.php');
 
 <div class="container-fluid">
 
-    <!-- DataTales Example -->
     <div class="card shadow mb-4">
         <div class="card-header py-3">
-            <a href="register.php" <h6 class="m-0 font-weight-bold text-primary">Admin Profile </h6>
+            <a href="register.php">
+                <h6 class="m-0 font-weight-bold text-primary">Admin Profile </h6>
             </a>
             <a href="menu.php">
                 <h6 class="m-0 font-weight-bold text-primary">Menu</h6>
             </a>
 
-            <a href="http://localhost/login/index.php">
+            <a href="./../index.php" class="">
                 <h6 class="m-0 font-weight-bold text-primary">
-                    KC Cafeteria</h6> </a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addadminprofile">
-                        Add User
-                        </button>
-                </h6>
+                    KC Cafeteria</h6>
+            </a>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addadminprofile">
+                Add User
+            </button>
+            </h6>
         </div>
 
         <div class="card-body">
 
             <div class="table-responsive">
-                <?php 
-                $connection = mysqli_connect("localhost","root","","cart");
+                <?php
+                $connection = mysqli_connect("localhost", "root", "", "cart");
                 $query = "SELECT * FROM registration";
                 $query_run = mysqli_query($connection, $query);
-                
+
                 ?>
                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                     <thead>
                         <tr>
-                            <th> Name </th>
-                            <th> Username </th>
+                            <th>Name </th>
+                            <th>Username </th>
                             <th>Email </th>
                             <th>Password</th>
                             <th>EDIT </th>
@@ -87,62 +87,39 @@ include('includes/header.php');
                     </thead>
                     <tbody>
                         <?php
-                        if(mysqli_num_rows($query_run) > 0)
-                        {
-                            while($row = mysqli_fetch_assoc($query_run))
-                            {
+                        if (mysqli_num_rows($query_run) > 0) {
+                            while ($row = mysqli_fetch_assoc($query_run)) {
                                 ?>
-
-
-
-                        <tr>
-                            <td> <?php echo $row['name']; ?></td>
-                            <td> <?php echo $row['username']; ?></td>
-                            <td> <?php echo $row['email']; ?></td>
-                            <td> <?php echo $row['password']; ?> </td>
-
-
-
-                            <td>
-
-                                <form action="edit.php" method="post">
-                                    <input type="hidden" name="edit_name" value="<?php echo $row['name']; ?>">
-                                    <button type="submit" name="edit_btn" class="btn btn-success"> EDIT</button>
-                                </form>
-                            </td>
-
-
-
-
-                            <td>
-                                <form action="delete.php" method="post">
-                                    <input type="hidden" name="delete_name" value="<?php echo $row['name']; ?>">
-                                    <button type="submit" name="delete_btn" class="btn btn-danger"> DELETE</button>
-                                </form>
-                            </td>
-                        </tr>
-
+                                <tr>
+                                    <td> <?php echo $row['name']; ?></td>
+                                    <td> <?php echo $row['username']; ?></td>
+                                    <td> <?php echo $row['email']; ?></td>
+                                    <td> <?php echo $row['password']; ?> </td>
+                                    <td>
+                                        <form action="edit.php" method="post">
+                                            <input type="hidden" name="edit_name" value="<?php echo $row['name']; ?>">
+                                            <button type="submit" name="edit_btn" class="btn btn-success"> EDIT</button>
+                                        </form>
+                                    </td>
+                                    <td>
+                                        <form action="delete.php" method="post">
+                                            <input type="hidden" name="delete_name" value="<?php echo $row['name']; ?>">
+                                            <button type="submit" name="delete_btn" class="btn btn-danger"> DELETE</button>
+                                        </form>
+                                    </td>
+                                </tr>
                         <?php
-                                
                             }
+                        } else {
+                            echo "No Record Found";
                         }
-                        else{
-                            echo"No Record Found";
-                        }
-?>
-
+                        ?>
                     </tbody>
                 </table>
-
             </div>
         </div>
     </div>
-
 </div>
-<!-- /.container-fluid -->
-
-
 <?php
 include('includes/scripts.php');
-//include('includes/footer.php');
 ?>
