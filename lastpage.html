@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <title>KC Cafe \ Last Page</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/lastpage.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <form
+        class="well form-horizontal"
+        action=" "
+        method="post"
+        id="contact_form"
+      >
+        <fieldset>
+          <legend>Enter your delivery address</legend>
+          <form action="lastpageecho.php" method="post">
+            <div class="form-group">
+              <label class="col-md-4 control-label">Class No</label>
+              <div class="col-md-4 inputGroupContainer">
+                <div class="input-group">
+                  <span class="input-group-addon"
+                    ><i class="glyphicon glyphicon-user"></i
+                  ></span>
+                  <input
+                    name="class_no"
+                    placeholder="Class No or Lab No"
+                    class="form-control"
+                    type="text"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="col-md-4 control-label">Mobile Number</label>
+              <div class="col-md-4 inputGroupContainer">
+                <div class="input-group">
+                  <span class="input-group-addon"
+                    ><i class="glyphicon glyphicon-user"></i
+                  ></span>
+                  <input
+                    name="mobilenumber"
+                    placeholder="Mobile Number"
+                    class="form-control"
+                    type="text"
+                  />
+                </div>
+              </div>
+            </div>
+            <br />
+            <button type="submit"><span>Place Order</span></button>
+          </form>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>

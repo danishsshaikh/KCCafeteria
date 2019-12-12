@@ -1,44 +1,39 @@
 # KC Cafeteria 🍱
 
- _Project for 5th Semester Subject_ -> **WDL & DBMS**
-
+_Project for 5th Semester Subject_ -> **WDL & DBMS**
 
 Here we provide the online canteen facility in the KCCEMSR campus. This facility is for the canteen in the KCCEMSR campus.
 
-Usually People have to go to canteen and order the foods and they have to wait in queue for a long time to get the orders. But with the help of this you just have to follow a very simple process to order your stuffs. And you need not to wait in the long queue, you can enjoy your food at your own place. 
+Usually People have to go to canteen and order the foods and they have to wait in queue for a long time to get the orders. But with the help of this you just have to follow a very simple process to order your stuffs. And you need not to wait in the long queue, you can enjoy your food at your own place.
 
 With this project we have eliminated the paper work and the long queue in the canteen completely. This system is quite easy to use and learn due to its attractive interface
 
+## 📊 Technologies Used
 
-##  📊 Technologies Used 
-
-- HTML
-- CSS
-- Bootstrap
+- HTML5
+- CSS3
+- Bootstrap 4
 - Javascript
 - AJAX
-- PHP 
+- PHP
 - MYSQL
 
-
-##  📲 Working 
+## 📲 Working
 
 - Register with us
 - Log-in with your email and password
-- Order your food 
+- Order your food
 - Fill up your account details.
-- You’ll be redirected to an address page 
+- You’ll be redirected to an address page
 - Fill in your mobile number and classroom, lab number.
-- Click the submit button 
+- Click the submit button
 - Your Order will be saved and will be delivered within shortspan of time.
-   
-   
-##  💯 Software Used 
+
+## 💯 Software Used
 
 - [XAMPP](https://www.apachefriends.org/download.html)
 
 - [Brackets](http://brackets.io/)
-
 
 ## Getting started?
 
@@ -54,23 +49,20 @@ With this project we have eliminated the paper work and the long queue in the ca
 
 - Open your browser
 
-- Type `http://localhost/Files/register.php` to get started with the first page
+- Type `http://localhost/register.php` to get started with the first page
 
 - And there you go ;)
 
-
-##  :two_hearts: Contributors 
+## :two_hearts: Contributors
 
 - [Aryan Veturekar](https://github.com/thedarklord30)
 - [Himanshu Singh](https://github.com/himanshusiingh)
 
-
-##  ✔️ To-Do's 
+## ✔️ To-Do's
 
 - [ ] Update the UI of KC Cafeteria Index Page.
 - [ ] Improve Submit Button for Address Page.
 
-
-## 🆓 License 
+## 🆓 License
 
 Free to use ;)
