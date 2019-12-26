@@ -1,4 +1,4 @@
-# KC Cafeteria 🍱
+# 🍱 KC Cafeteria 🍱
 
 _Project for 5th Semester Subject_ -> **WDL & DBMS**
 
@@ -35,7 +35,7 @@ With this project we have eliminated the paper work and the long queue in the ca
 
 - [Brackets](http://brackets.io/)
 
-## Getting started?
+## :octocat: Getting started?
 
 - Download the Project.
 
